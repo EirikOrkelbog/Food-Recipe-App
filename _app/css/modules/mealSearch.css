@@ -1,0 +1,40 @@
+.title {
+	font-size: 2.5rem;
+	text-transform: capitalize;
+	margin-bottom: 1rem;
+}
+
+.meal_search blockquote {
+	font-size: 1.4rem;
+	font-weight: lighter;
+}
+
+.meal_search blockquote cite {
+	display: block;
+	font-size: 1.4rem;
+}
+
+.meal_search-box {
+	display: flex;
+	margin-top: 1rem;
+}
+
+.search_content {
+	width: 100%;
+	font-size: 1.5rem;
+	border-radius: 2rem 0 0 2rem;
+	border-right: none;
+	padding: 1rem;
+	outline-color: transparent;
+}
+
+.search_button {
+	font-size: 1.5rem;
+	padding: 1rem;
+	border-radius: 0 2rem 2rem 0;
+	border-left: none;
+	margin-left: -4px;
+	background-color: rgb(216, 76, 11);
+	color: #fff;
+	cursor: pointer;
+}

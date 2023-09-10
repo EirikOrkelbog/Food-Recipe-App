@@ -1,0 +1,5 @@
+@import '/_app/css/reset.css';
+@import '/_app/css/base.css';
+@import '/_app/css/modules/mealSearch.css';
+@import '/_app/css/modules/mealResult.css';
+@import '/_app/css/modules/mealDetails.css';

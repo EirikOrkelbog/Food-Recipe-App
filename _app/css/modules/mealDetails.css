@@ -1,0 +1,76 @@
+.meal_details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90%;
+	height: 90%;
+	padding: 2rem;
+	border-radius: 2rem;
+	background-color: rgb(216, 76, 11);
+	color: #fff;
+	overflow-y: scroll;
+}
+
+.recipe_meal-image {
+	margin: 2rem;
+}
+
+.recipe_meal-image img {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 100%;
+}
+
+.recipe_close-button {
+	align-self: flex-end;
+	height: 2rem;
+	width: 2rem;
+	font-size: 1.5rem;
+	background-color: #fff;
+	border: none;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.recipe_title {
+	font-size: 2.5rem;
+	text-transform: capitalize;
+}
+
+.recipe_category {
+	display: inline-block;
+	font-size: 1.2rem;
+	text-transform: capitalize;
+	margin: 1rem;
+	padding: .3rem;
+	border-radius: 3px;
+	background-color: #fff;
+	color: rgb(216, 76, 11);
+}
+
+.recipe_instructions {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.recipe_instructions h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.recipe_instructions p {
+	text-align: center;
+}
+
+.recipe_link a {
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+.hide_meal-details {
+	display: none;
+}

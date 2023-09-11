@@ -69,9 +69,9 @@ async function getMealRecipe(event) {
 			.then(data => mealRecipeModal(data.meals));
 	}
 }
-
 function mealRecipeModal(meal) {
 	meal = meal[0];
+	console.log(meal.strInstructions);
 	let html = `
 		<h2 class="recipe_title">${meal.strMeal}</h2>
 		<p class="recipe_category">${meal.strCategory}</p>
